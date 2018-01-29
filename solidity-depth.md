@@ -1,37 +1,38 @@
 # 深入理解 Solidity
 
-此节将帮助你深入理解Solidity，如果有遗漏，请和我们联系[Gitter](https://gitter.im/ethereum/solidity)或者在[Githhub](https://github.com/ethereum/solidity/pulls)上发pull request
+此節將幫助你深入理解 Solidity，如果有遺漏，請和我們聯繫[Gitter](https://gitter.im/ethereum/solidity)或者在[Githhub](https://github.com/ethereum/solidity/pulls)上發 pull request
 
 [Layout of a Solidity Source File](https://shimo.im/doc/wReqW6rbZWYWAPHf)
 
-- [Importing other Source Files](https://solidity.readthedocs.org/en/latest/layout-of-source-files.html#importing-other-source-files)
+
+- Solidity 版本附註 (Version Pragma)
 
 
-- [Comments](https://solidity.readthedocs.org/en/latest/layout-of-source-files.html#comments)
+- 引入其他合約 [Importing other Source Files](https://solidity.readthedocs.org/en/latest/layout-of-source-files.html#importing-other-source-files)
 
 
-- Solidity源文件的布局
+- 註解 [Comments](https://solidity.readthedocs.org/en/latest/layout-of-source-files.html#comments)
 
 
-- 引入其他的源文件
+合約結構 [Structure of a Contract](https://solidity.readthedocs.org/en/latest/structure-of-a-contract.html)
+
+- [State Variable](http://solidity.readthedocs.io/en/develop/structure-of-a-contract.html#state-variables)
+
+- [Functions](http://solidity.readthedocs.io/en/develop/structure-of-a-contract.html#functions)
+
+- [Function Modifiers](http://solidity.readthedocs.io/en/develop/structure-of-a-contract.html#function-modifiers)
+
+- [Events](http://solidity.readthedocs.io/en/develop/structure-of-a-contract.html#events)
+
+- [Struct Types](http://solidity.readthedocs.io/en/develop/structure-of-a-contract.html#struct-types)
+
+- [Enum Types](http://solidity.readthedocs.io/en/develop/structure-of-a-contract.html#enum-types)
 
 
-- 注释
-
-
-- [Structure of a Contract](https://solidity.readthedocs.org/en/latest/structure-of-a-contract.html)
-
-
-- 合约的结构
-
-
-- [Types](https://solidity.readthedocs.org/en/latest/types.html)
+型別 [Types](https://solidity.readthedocs.org/en/latest/types.html)
 
 
 - [Value Types](https://solidity.readthedocs.org/en/latest/types.html#value-types)
-
-
-- [Enums](https://solidity.readthedocs.org/en/latest/types.html#enums)
 
 
 - [Reference Types](https://solidity.readthedocs.org/en/latest/types.html#reference-types)
@@ -48,60 +49,30 @@
 
 - [Type Deduction](https://solidity.readthedocs.org/en/latest/types.html#type-deduction)
 
-类型
 
-- 变量类型
-
-
-- 枚举
+單位和全域可見變數 [Units and Globally Available Variables](https://solidity.readthedocs.org/en/latest/units-and-global-variables.html)
 
 
-- 参考类型
+- 以太單位 [Ether Units](https://solidity.readthedocs.org/en/latest/units-and-global-variables.html#ether-units)
 
 
-- 映射
+- 時間單位 [Time Units](https://solidity.readthedocs.org/en/latest/units-and-global-variables.html#time-units)
 
 
-- 包括左赋值的操作符
+- 特殊變數和函式 [Special Variables and Functions](https://solidity.readthedocs.org/en/latest/units-and-global-variables.html#special-variables-and-functions)
 
 
-- 在基本类型间的转换
+[Expressions and Control Structures](https://solidity.readthedocs.org/en/latest/control-structures.html)
 
-
-- 类型导出
-
-
-- [Units and Globally Available Variables](https://solidity.readthedocs.org/en/latest/units-and-global-variables.html)
-
-
-- [Ether Units](https://solidity.readthedocs.org/en/latest/units-and-global-variables.html#ether-units)
-
-
-- [Time Units](https://solidity.readthedocs.org/en/latest/units-and-global-variables.html#time-units)
-
-
-- [Special Variables and Functions](https://solidity.readthedocs.org/en/latest/units-and-global-variables.html#special-variables-and-functions)
-
-
-- 单元局部和全局可见变量
-
-
-- Ether 单元
-
-
-- Time  单元
-
-
-- 特殊变量和函数
-
-
-- [Expressions and Control Structures](https://solidity.readthedocs.org/en/latest/control-structures.html)
+- [Input Parameters and Output Parameters](http://solidity.readthedocs.io/en/develop/control-structures.html#input-parameters-and-output-parameters)
 
 
 - [Control Structures](https://solidity.readthedocs.org/en/latest/control-structures.html#control-structures)
 
 
 - [Function Calls](https://solidity.readthedocs.org/en/latest/control-structures.html#function-calls)
+
+- [Creating Contracts via ``new``](http://solidity.readthedocs.io/en/develop/control-structures.html#creating-contracts-via-new)
 
 
 - [Order of Evaluation of Expressions](https://solidity.readthedocs.org/en/latest/control-structures.html#order-of-evaluation-of-expressions)
